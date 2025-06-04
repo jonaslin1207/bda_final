@@ -59,5 +59,5 @@ private_result_df = pd.DataFrame(data={
     "label": privateData_result.labels_
 })
 # Save the results to CSV files
-public_result_df.to_csv("r13b44015_public.csv", index=False)
-private_result_df.to_csv("r13b44015_private.csv", index=False)
+public_result_df.to_csv("public_submission.csv", index=False)
+private_result_df.to_csv("private_submission.csv", index=False)
